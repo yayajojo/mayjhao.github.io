@@ -116,3 +116,9 @@ li>a:active {
 .work_experience_title{
   padding-bottom: 3rem;
 }
+footer{
+  background-color: #1b262c;
+  color:white;
+  text-align: center;
+  padding: 10px 10px;
+}
