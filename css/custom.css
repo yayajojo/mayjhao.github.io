@@ -3,9 +3,15 @@ body {
   font-family: 'Gelasio', serif;
   font-size: 20px;
 }
-h4{
+
+p {
+  font-size: 1rem;
+}
+
+h4 {
   color: #f17362;
 }
+
 .navbar-brand {
   margin-left: 10rem;
 }
@@ -18,16 +24,13 @@ li>a:link {
   color: #3282b8;
 }
 
-
 li>a:visited {
   color: #2c7873;
 }
 
-
 li>a:hover {
   color: white;
 }
-
 
 li>a:active {
   color: #0000FF;
@@ -41,7 +44,7 @@ li>a:active {
 .flex-1 {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 0%;
+  flex-basis: 20%;
   background-color: #f3f3f3;
 }
 
@@ -62,8 +65,54 @@ li>a:active {
 }
 
 .self_intro {
-  margin-top:20px;
+  margin-top: 20px;
 }
-.post{
-  font-size: 1rem;
+
+.work_experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.work_record {
+  display: flex;
+  flex-direction: row;
+}
+
+.circle_div {
+  flex-grow: 3;
+  padding-left: 4rem;
+}
+
+.circle {
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 12px solid #3282b8;
+  background-color: #fef6fb;
+  text-align: center;
+  color:#3282b8;
+  display: flex;
+  box-shadow: 10px 10px 10px grey;
+}
+.line{
+
+  border-top: 6px dotted #230444;
+  border-bottom: 6px dotted #230444;
+  z-index: 1 ;
+  flex-grow: 3;
+  border-radius: 8%;
+}
+.left_line {
+  border-right: 6px solid #230444;
+  margin-bottom:50px;
+}
+
+.right_line {
+  border-left: 6px solid #230444;
+  margin-top: 50px;
+}
+.work_experience_title{
+  padding-bottom: 3rem;
 }
