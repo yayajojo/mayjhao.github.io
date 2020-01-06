@@ -1,26 +1,50 @@
 body {
-    padding-top: 55px;
-    font-family: 'Gelasio', serif;
+  padding-top: 55px;
+  font-family: 'Gelasio', serif;
+  font-size: 20px;
 }
-.navbar-brand{
+h4{
+  color: #f17362;
+}
+.navbar-brand {
   margin-left: 10rem;
 }
-ul.navbar-nav{
+
+ul.navbar-nav {
   margin-right: 10rem;
 }
 
-.flex-container{
+li>a:link {
+  color: #3282b8;
+}
+
+
+li>a:visited {
+  color: #2c7873;
+}
+
+
+li>a:hover {
+  color: white;
+}
+
+
+li>a:active {
+  color: #0000FF;
+}
+
+.flex-container {
   display: flex;
   flex-direction: row;
 }
 
-
-.flex-1{
+.flex-1 {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
   background-color: #f3f3f3;
 }
+
 .flex-2 {
   flex-grow: 2;
   flex-shrink: 0;
@@ -29,13 +53,17 @@ ul.navbar-nav{
   flex-direction: column;
   background-color: #f6e1e1;
 }
-.content{
-  width:90%;
+
+.content {
+  width: 90%;
   padding: 20px 40px;
   background-color: white;
   margin: 20px auto;
-
 }
-.self_intro{
-  color:black
+
+.self_intro {
+  margin-top:20px;
+}
+.post{
+  font-size: 1rem;
 }
