@@ -84,8 +84,7 @@ li>a:active {
 
 .circle_div {
   flex-grow: 3;
-  padding-left: 4rem;
-  margin:5px 5px;
+  margin:2rem 5rem;
 }
 
 .circle {
@@ -112,11 +111,15 @@ li>a:active {
 .left_line {
   border-right: 6px solid #230444;
   margin-bottom:50px;
+  margin-right: 20px;
 }
 
 .right_line {
   border-left: 6px solid #230444;
   margin-top: 50px;
+}
+.hide{
+  visibility: hidden;
 }
 /* CSS applied to modal (window popup)  */
 .modal {
@@ -161,6 +164,9 @@ li>a:active {
   color: #758184;
   cursor: pointer;
   padding: 20px 5px;
+  width:150px;
+  font-size: 1rem;
+  display: inline-block;
 }
 .span_btn:hover,
 .span_btn:active
