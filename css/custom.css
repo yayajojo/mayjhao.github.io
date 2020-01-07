@@ -1,3 +1,4 @@
+/* CSS applied to whole body */
 body {
   padding-top: 55px;
   font-family: 'Gelasio', serif;
@@ -11,7 +12,7 @@ p {
 h4 {
   color: #f17362;
 }
-
+/* CSS applied to navbar */
 .navbar-brand {
   margin-left: 10rem;
 }
@@ -35,7 +36,7 @@ li>a:hover {
 li>a:active {
   color: #0000FF;
 }
-
+/* CSS applied to flex-container */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -63,16 +64,19 @@ li>a:active {
   background-color: white;
   margin: 20px auto;
 }
+/* CSS applied to div of self_intro */
 
 .self_intro {
   margin-top: 20px;
 }
-
+/* CSS applied to div of work_experience */
 .work_experience {
   display: flex;
   flex-direction: column;
 }
-
+.work_experience_title{
+  padding-bottom: 3rem;
+}
 .work_record {
   display: flex;
   flex-direction: row;
@@ -113,9 +117,7 @@ li>a:active {
   border-left: 6px solid #230444;
   margin-top: 50px;
 }
-.work_experience_title{
-  padding-bottom: 3rem;
-}
+/* CSS applied to footer */
 footer{
   background-color: #1b262c;
   color:white;
