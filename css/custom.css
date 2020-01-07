@@ -85,13 +85,14 @@ li>a:active {
 .circle_div {
   flex-grow: 3;
   padding-left: 4rem;
+  margin:5px 5px;
 }
 
 .circle {
   justify-content: center;
   align-items: center;
-  height: 10rem;
-  width: 10rem;
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
   border: 12px solid #3282b8;
   background-color: #fef6fb;
@@ -121,7 +122,7 @@ li>a:active {
 .modal {
   display:none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 2; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -159,6 +160,7 @@ li>a:active {
   {
   color: #758184;
   cursor: pointer;
+  padding: 20px 5px;
 }
 .span_btn:hover,
 .span_btn:active
@@ -167,6 +169,17 @@ li>a:active {
   text-shadow: 2px 2px 4px #000000;
   cursor: pointer;
 }
+/* CSS applied to content of working holiday pop up page */
+.woking-holiday_ul{
+  font-size:1rem;
+}
+
+img{
+  width: 30%;
+  margin: 20px 20px;
+  float: left;
+}
+
 /* CSS applied to footer */
 footer{
   background-color: #1b262c;

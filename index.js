@@ -20,3 +20,20 @@ window.onclick = function(event) {
     woHoModal.style.display = "none";
   }
 };
+let gaeaBtn = document.getElementById("gaea_btn");
+let gaeaModal = document.getElementById("gaea_modal");
+let gaeaClose = document.getElementById("gaea_close");
+// When the user clicks on the button, open the modal
+gaeaBtn.onclick = function() {
+  gaeaModal.style.display = "block";
+};
+// When the user clicks on <span> (x), close the modal
+gaeaClose.onclick = function() {
+  gaeaModal.style.display = "none";
+};
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == gaeaModal) {
+    gaeaModal.style.display = "none";
+  }
+};
