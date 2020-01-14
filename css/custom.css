@@ -170,7 +170,12 @@ ul.navbar-nav {
   border-left: 6px solid #230444;
   margin-top: 50px;
 }
-
+.left_line-short{
+    margin-bottom: 100px;
+}
+.right_line-short{
+  margin-top: 100px;
+}
 .hide {
   visibility: hidden;
 }
