@@ -268,13 +268,13 @@ img {
   float: left;
 }
 
-/* CSS applied to blog list */
-.blog_li {
+/* CSS applied to recent deployed works list */
+.works_li {
   font-size: 1rem;
   color: #4d4646;
 }
 
-.blog_li:hover {
+.works_li:hover {
   font-size: 1rem;
   color: #4d4646;
 }
