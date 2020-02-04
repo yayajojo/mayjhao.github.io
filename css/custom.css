@@ -180,7 +180,9 @@ ul.navbar-nav {
 .hide {
   visibility: hidden;
 }
-
+span>strong{
+  font-size: 25px;
+}
 /* CSS applied to modal (window popup)  */
 .modal {
   display: none;
@@ -243,7 +245,7 @@ ul.navbar-nav {
 .span_btn:hover,
 .span_btn:active {
   color: black;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 6px #706c61;
   cursor: pointer;
 }
 
@@ -262,7 +264,11 @@ img {
 .woking_ul {
   font-size: 1rem;
 }
-
+ol>li{
+  font-size:1.1rem;
+  color:#333333;
+  font-weight: 600;
+}
 img {
   width: 30%;
   margin: 20px 20px;
